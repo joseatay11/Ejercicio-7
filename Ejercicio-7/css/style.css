@@ -1,0 +1,22 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.boton:hover {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+.boton::before {
+    font-family:'Courier New', Courier, monospace;
+    content: "Pasa por encima"
+    
+}
+.boton:hover::before {
+    font-size: xx-large;
+    content: "¡Hecho!"
+}
